@@ -1,0 +1,15 @@
+ul {
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    color: #5AB8C9;
+    font-weight: bold;
+}
