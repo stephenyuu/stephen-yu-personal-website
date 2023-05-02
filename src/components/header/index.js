@@ -1,20 +1,12 @@
 import React from "react";
-import { config } from "../../config";
+import WelcomeMessage from "./welcome-message";
+import helloText from "./hello.json";
 
 const Header = () => {
   return (
-    <nav className="mt-3 navbar navbar-expand-lg d-flex justify-content-between">
-      <div>Insert Logo Here</div>
-      <ul className="d-flex align-items-center">
-        {config.navLinks.map((link) => (
-          <li>
-            <a className="ms-3" href={link.url}>
-              {link.name}
-            </a>
-          </li>
-        ))}
-      </ul>
-    </nav>
+    <div className="mt-3">
+      <WelcomeMessage text={helloText} />
+    </div>
   );
 };
 
