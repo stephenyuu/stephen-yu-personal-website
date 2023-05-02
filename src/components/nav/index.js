@@ -8,7 +8,7 @@ const Nav = () => {
       <div className="d-flex align-items-center">
         <ul className="d-flex justify-content-between align-items-center">
           {navLinks.map((link) => (
-            <li>
+            <li key={link.name}>
               <a className="ms-3" href={link.url}>
                 {link.name}
               </a>
