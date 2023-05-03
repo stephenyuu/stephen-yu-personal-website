@@ -1,3 +1,5 @@
+/* HelloMessage */
+
 .fade-in {
     transition: opacity 1s ease;
 }
@@ -8,5 +10,12 @@
 }
 
 .hello {
+    font-size: 2rem;
+    color: #0dcaf0;
+}
+
+/* Header */
+
+.name {
     font-size: 3rem;
 }

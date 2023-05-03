@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import PropTypes from "prop-types";
 import "./index.css";
 
-const WelcomeMessage = ({ text }) => {
+const HelloMessage = ({ text }) => {
   const [helloTextIndex, setHelloTextIndex] = useState(0);
   const [fadeProp, setFadeProp] = useState({
     fade: "fade-in",
@@ -34,12 +34,12 @@ const WelcomeMessage = ({ text }) => {
   );
 };
 
-WelcomeMessage.defaultProps = {
+HelloMessage.defaultProps = {
   text: "Hello",
 };
 
-WelcomeMessage.propTypes = {
+HelloMessage.propTypes = {
   text: PropTypes.arrayOf(PropTypes.string),
 };
 
-export default WelcomeMessage;
+export default HelloMessage;
