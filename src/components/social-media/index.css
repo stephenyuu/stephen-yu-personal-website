@@ -1,0 +1,10 @@
+.my-social-media-icon {
+    font-size: 2rem;
+    color: inherit;
+    transition: 0.5s ease;
+}
+
+.my-social-media-icon:hover {
+    color: #0dcaf0;
+    text-shadow: 0 0 1rem #0dcaf0;
+}
