@@ -12,7 +12,7 @@ const Header = () => {
         <h3>Hello, my name is</h3>
         <h1>Stephen Yu</h1>
         <h3>
-          And I am <span>a Frontend Developer</span>
+          And I am <span>an aspiring Fullstack Developer</span>
         </h3>
         <SocialMedia />
         <button className="mt-3 p-2 btn btn-outline-light my-resume-button">Resume</button>
