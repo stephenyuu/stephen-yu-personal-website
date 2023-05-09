@@ -1,7 +1,35 @@
-h1, h3 {
+h1, h2, h3 {
     margin: 0;
 }
 
-.section {
+span {
+    color: #0dcaf0;
+}
+
+.my-section {
     min-height: 100vh;
+}
+
+.my-image img {
+    width: 35vw;
+}
+
+.my-content h1 {
+    font-size: 5rem;
+    font-weight: 900;
+    line-height: 1.5;
+}
+
+.my-content h2 {
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+.my-content h3 {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.my-content p {
+    font-size: 1.5rem;
 }

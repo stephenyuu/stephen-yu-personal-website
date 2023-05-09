@@ -1,18 +1,3 @@
-.my-home-content h1 {
-    font-size: 5rem;
-    font-weight: 900;
-    line-height: 1.5;
-}
-
-.my-home-content h3 {
-    font-size: 3rem;
-    font-weight: 700;
-}
-
-span {
-    color: #0dcaf0;
-}
-
 .btn.my-resume-button {
     font-size: 1.5rem;
     transition: 0.5s ease;
@@ -22,8 +7,4 @@ span {
     border-color: #0dcaf0;
     background-color: #0dcaf0;
     box-shadow: 0 0 1rem #0dcaf0;
-}
-
-.my-home-image img {
-    width: 35vw;
 }

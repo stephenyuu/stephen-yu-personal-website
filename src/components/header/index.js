@@ -6,9 +6,10 @@ import "./index.css";
 const Header = () => {
   return (
     <div
-      className="mt-3 d-flex justify-content-center align-items-center section"
+      id="home"
+      className="mt-3 d-flex justify-content-center align-items-center my-section"
     >
-      <div className="my-home-content me-5">
+      <div className="my-content me-5">
         <h3>Hello, my name is</h3>
         <h1>Stephen Yu</h1>
         <h3>
@@ -17,8 +18,8 @@ const Header = () => {
         <SocialMedia />
         <button className="mt-3 p-2 btn btn-outline-light my-resume-button">Resume</button>
       </div>
-      <div className="my-home-image">
-        <img src={homeImage} alt="Me standing in front of Golden Gate Bridge" className="rounded"/>
+      <div className="my-image">
+        <img src={homeImage} alt="My family and I standing in front of The Vessel" className="rounded"/>
       </div>
     </div>
   );
