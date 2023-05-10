@@ -22,7 +22,7 @@
     transition: 0.5s;
 }
 
-.navbar-nav > .nav-link:hover{
+.navbar-nav > .nav-link:hover, .navbar-nav > a.nav-link.active {
     color: #0dcaf0;
     text-shadow: 0 0 1rem #0dcaf0;
     font-weight: bold;
