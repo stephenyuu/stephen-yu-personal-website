@@ -6,6 +6,14 @@ span {
     color: #0dcaf0;
 }
 
+.my-primary-bg {
+    background-color: #28282B;
+}
+
+.my-secondary-bg {
+    background-color: #0dcaf0;
+}
+
 .my-section {
     min-height: 100vh;
 }
@@ -31,5 +39,5 @@ span {
 }
 
 .my-content p {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
 }

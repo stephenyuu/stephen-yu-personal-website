@@ -19,14 +19,11 @@ const About = () => {
           About <span>Me</span>
         </h2>
         <p className="mt-3">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
-          consectetur vitae mi a volutpat. Quisque eget ornare eros. Nam vel est
-          tincidunt, vehicula mi sit amet, gravida justo. Aliquam erat volutpat.
-          Maecenas egestas, risus a ultricies facilisis, mi magna hendrerit
-          enim, a mattis est sapien et purus. Quisque vitae leo ultrices,
-          faucibus nulla ac, interdum sapien. Nulla in tincidunt purus. Maecenas
-          vitae ullamcorper risus. Pellentesque condimentum auctor enim, in
-          accumsan risus lacinia ac.
+          I am a rising senior at Northeastern University pursuing a B.S. in
+          Computer Science and Business Administration with a concentration in
+          Entreprenurial Startups. My interest in computer science was sparked
+          by my first computer science course during freshman year, when I was
+          introudced to the Racket programming language. While the majority of students
         </p>
       </div>
     </div>
