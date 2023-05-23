@@ -6,7 +6,7 @@ import "./index.css";
 const HeaderNav = () => {
   return (
     <Navbar className="mt-3 justify-content-between" expand="md">
-      <Navbar.Brand className="my-logo" href="#">
+      <Navbar.Brand className="my-logo">
         Logo
       </Navbar.Brand>
       <Navbar.Toggle className="my-navbar-button" />

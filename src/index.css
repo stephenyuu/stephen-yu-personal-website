@@ -27,3 +27,7 @@ code {
     monospace;
 }
 
+:root {
+  --primary-color: #0dcaf0;
+}
+

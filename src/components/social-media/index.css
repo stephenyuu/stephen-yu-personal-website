@@ -5,6 +5,6 @@
 }
 
 .my-social-media-icon:hover {
-    color: #0dcaf0;
-    text-shadow: 0 0 1rem #0dcaf0;
+    color: var(--primary-color);
+    text-shadow: 0 0 1rem var(--primary-color);
 }

@@ -2,16 +2,51 @@ h1, h2, h3 {
     margin: 0;
 }
 
+p {
+    margin: 0;
+}
+
 span {
-    color: #0dcaf0;
+    color: var(--primary-color);
 }
 
-.my-primary-bg {
-    background-color: #28282B;
+ul {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    padding: 0;
 }
 
-.my-secondary-bg {
-    background-color: #0dcaf0;
+ul li::before {
+    content: "□";
+    color: var(--primary-color);
+    margin-right: 1rem;
+}
+
+a.hover-link {
+    display: inline-block;
+    position: relative;
+    text-decoration: none;
+    color: var(--primary-color);
+  }
+
+.hover-link::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: var(--primary-color);
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  
+.hover-link:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
 }
 
 .my-section {

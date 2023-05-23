@@ -4,7 +4,7 @@
 }
 
 .btn.my-resume-button:hover {
-    border-color: #0dcaf0;
-    background-color: #0dcaf0;
-    box-shadow: 0 0 1rem #0dcaf0;
+    border-color: var(--primary-color);
+    background-color: var(--primary-color);
+    box-shadow: 0 0 1rem var(--primary-color);
 }
