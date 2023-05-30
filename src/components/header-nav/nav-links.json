@@ -8,12 +8,12 @@
     "url": "/#about"
   },
   {
-    "name": "Education",
-    "url": "/#education"
-  },
-  {
     "name": "Experience",
     "url": "/#experience"
+  },
+  {
+    "name": "Education",
+    "url": "/#education"
   },
   {
     "name": "Projects",

@@ -1,0 +1,50 @@
+[
+  {
+    "position": "Incoming Software Engineer Co-op",
+    "company": "Toast, Inc.",
+    "begin": "July 2023",
+    "end": "December 2023",
+    "description": [],
+    "skills": []
+  },
+  {
+    "position": "Quality Assurance Engineer Co-op",
+    "company": "Toast, Inc.",
+    "begin": "July 2022",
+    "end": "December 2022",
+    "description": [
+      "Fulfilled the QA engineer position on the Ordering and Menus for Guests/Mobile Order and Pay team by handling manual testing, automated testing, test documentation, bug detection and reporting, and all other QA responsibilities to produce quality software",
+      "Created mabl smoke tests for each configuration variation of Mobile Order and Pay to accelerate the release cadence of the product from once to several times a week and increase the confidence of releases to be bug-free",
+      "Conducted end-to-end testing on the integration of Mastercard Click to Pay into Mobile Order and Pay to deliver a new online payment method to customers",
+      "Implemented visual and logic changes using JavaScript and CSS in the Mobile Order and Pay codebase to improve the usability and clarity in the product’s execution of starting and adding to a “tab” at a restaurant",
+      "Participated in monthly mobile release testing for new Toast POS versions on Android hardware to provide new reliable features for restaurants"
+    ],
+    "skills": [
+      "End-to-end Testing",
+      "Quality Assurance",
+      "Test Automation",
+      "mabl",
+      "Agile Methodologies",
+      "JavaScript",
+      "HTML",
+      "CSS"
+    ]
+  },
+  {
+    "position": "Assistant Manager",
+    "company": "Yoan's Garden, Inc.",
+    "begin": "June 2016",
+    "end": "September 2020",
+    "description": [
+      "Supervised all front-of-house operations and managed customer orders to provide efficient service for roughly 200 orders daily",
+      "Monitored and analyzed feedback on different social media portals such as Google My Business, Yelp, Uber Eats, and Facebook to assess customer satisfaction and quickly resolve customer disputes",
+      "Handled different closing procedures, including settling credit card and cash transactions and restocking inventory",
+      "Coordinated the installment and maintenance of a POS system to support daily business operations"
+    ],
+    "skills": [
+      "Communication",
+      "Customer Service",
+      "Teamwork"
+    ]
+  }
+]

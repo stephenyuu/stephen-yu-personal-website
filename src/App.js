@@ -3,6 +3,7 @@ import HeaderNav from "./components/header-nav";
 import Header from "./components/header";
 import About from "./components/about";
 import "./App.css";
+import Experience from "./components/experience";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <HeaderNav />
       <Header />
       <About />
+      <Experience />
     </div>
   );
 }
