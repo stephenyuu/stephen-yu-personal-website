@@ -1,0 +1,6 @@
+.accordion.my-accordion {
+    --bs-accordion-color: inherit;
+    --bs-accordion-bg: transparent;
+    --bs-accordion-active-bg: transparent;
+    
+}
