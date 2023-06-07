@@ -11,8 +11,8 @@ const ExperienceAccordion = () => {
             <Accordion.Header><h4><span>{exp.company}</span></h4></Accordion.Header>
             <Accordion.Body>
               <h5>{exp.position} <span>@ {exp.company}</span></h5>
-              <p>{exp.begin} – {exp.end}</p>
-              <ul>
+              <p className="mt-2">{exp.begin} – {exp.end}</p>
+              <ul className="mt-2">
                 {exp.description.map((resp) => (
                   <li>{resp}</li>
                 ))}
