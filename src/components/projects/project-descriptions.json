@@ -16,7 +16,7 @@
       "Netlify",
       "VS Code"
     ],
-    "description": "chomp ...",
+    "description": "A Yelp-like web app for explorers of the world's diverse food scenes. As a Chomper, you can search, browse, view detailed restaurant information, and share your favorite restaurants by liking them. As a Nibbler, you also have the capability of sharing your valuable insights by leaving reviews at restaurants. New swipe-and-match feature to streamline the process of choosing where to dine at with a group in development.",
     "github": ""
   },
   {
@@ -35,7 +35,7 @@
       "Netlify",
       "VS Code"
     ],
-    "description": "tuiter ...",
+    "description": "A replica of the popular social media network, Twitter. Allows users to post and edit 'tuits,' as well as browse and like other users' 'tuits.'",
     "github": ""
   },
   {
@@ -48,35 +48,35 @@
       "JUnit",
       "IntelliJ IDEA"
     ],
-    "description": "animator ...",
+    "description": "An app for creating and playing animations of 2-D shapes based on a text description. Provides four view types: an interactive GUI with additional controls, a standard visual playing, a textual description, and another textual view compliant with the SVG file format. Offers three playing modes: continuous, frame-by-frame, and slow motion.",
     "github": "https://github.com/stephenyuu/Animator"
   },
   {
     "name": "Freecell",
     "image": "freecell.png",
     "builtWith": ["Java", "JUnit", "IntelliJ IDEA"],
-    "description": "freecell ...",
+    "description": "The classic Freecell Solitaire card game. Supports single-card moves and multi-card moves.",
     "github": "https://github.com/stephenyuu/Freecell-Card-Game"
   },
   {
     "name": "Concentration",
-    "image": "",
+    "image": "concentration.png",
     "builtWith": ["Java", "Eclipse"],
-    "description": "concentration ...",
+    "description": "Another classic card game, Concentration.",
     "github": ""
   },
   {
     "name": "Bridgit",
-    "image": "",
+    "image": "bridgit.png",
     "builtWith": ["Java", "Eclipse"],
-    "description": "bridgit ...",
+    "description": "A clone of Bridget, the strategy and skill game in which two players aim to construct a path connecting opposite sides of the game board while obstructing their opponent from achieving the same.",
     "github": ""
   },
   {
     "name": "Space Invaders",
     "image": "space-invaders.png",
     "builtWith": ["Java", "Eclipse"],
-    "description": "space invaders ...",
+    "description": "A re-creation of the timeless Space Invaders game first released in 1978.",
     "github": ""
   }
 ]
