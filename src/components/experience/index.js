@@ -1,5 +1,5 @@
 import React from "react";
-import ExperienceAccordion from "../experience-accordion";
+import ExperienceAccordion from "./experience-accordion";
 
 const Experience = () => {
   return (

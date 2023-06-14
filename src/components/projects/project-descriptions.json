@@ -1,0 +1,82 @@
+[
+  {
+    "name": "Chomp",
+    "image": "",
+    "builtWith": [
+      "React",
+      "Bootstrap",
+      "CSS",
+      "Redux",
+      "Node.js",
+      "MongoDB",
+      "Mongoose",
+      "Axios",
+      "Express",
+      "Yelp Fusion API",
+      "Netlify",
+      "VS Code"
+    ],
+    "description": "chomp ...",
+    "github": ""
+  },
+  {
+    "name": "Tuiter",
+    "image": "",
+    "builtWith": [
+      "React",
+      "Bootstrap",
+      "CSS",
+      "Redux",
+      "Node.js",
+      "MongoDB",
+      "Mongoose",
+      "Axios",
+      "Express",
+      "Netlify",
+      "VS Code"
+    ],
+    "description": "tuiter ...",
+    "github": ""
+  },
+  {
+    "name": "Animator",
+    "image": "animator.png",
+    "builtWith": [
+      "Java",
+      "Model-View-Controller Architecture",
+      "Java Swing",
+      "JUnit",
+      "IntelliJ IDEA"
+    ],
+    "description": "animator ...",
+    "github": "https://github.com/stephenyuu/Animator"
+  },
+  {
+    "name": "Freecell",
+    "image": "freecell.png",
+    "builtWith": ["Java", "JUnit", "IntelliJ IDEA"],
+    "description": "freecell ...",
+    "github": "https://github.com/stephenyuu/Freecell-Card-Game"
+  },
+  {
+    "name": "Concentration",
+    "image": "",
+    "builtWith": ["Java", "Eclipse"],
+    "description": "concentration ...",
+    "github": ""
+  },
+  {
+    "name": "Bridgit",
+    "image": "",
+    "builtWith": ["Java", "Eclipse"],
+    "description": "bridgit ...",
+    "github": ""
+  },
+  {
+    "name": "Space Invaders",
+    "image": "space-invaders.png",
+    "builtWith": ["Java", "Eclipse"],
+    "description": "space invaders ...",
+    "github": ""
+  }
+]
