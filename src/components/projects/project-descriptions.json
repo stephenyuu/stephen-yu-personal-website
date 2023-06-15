@@ -1,7 +1,7 @@
 [
   {
     "name": "Chomp",
-    "image": "",
+    "image": "chomp.png",
     "builtWith": [
       "React",
       "Bootstrap",
@@ -17,11 +17,11 @@
       "VS Code"
     ],
     "description": "A Yelp-like web app for explorers of the world's diverse food scenes. As a Chomper, you can search, browse, view detailed restaurant information, and share your favorite restaurants by liking them. As a Nibbler, you also have the capability of sharing your valuable insights by leaving reviews at restaurants. New swipe-and-match feature to streamline the process of choosing where to dine at with a group in development.",
-    "github": ""
+    "github": "https://github.com/stephenyuu/chomp-react-web-app"
   },
   {
     "name": "Tuiter",
-    "image": "",
+    "image": "tuiter.png",
     "builtWith": [
       "React",
       "Bootstrap",
@@ -63,20 +63,20 @@
     "image": "concentration.png",
     "builtWith": ["Java", "Eclipse"],
     "description": "Another classic card game, Concentration.",
-    "github": ""
+    "github": "https://github.com/stephenyuu/concentration-card-game"
   },
   {
     "name": "Bridgit",
     "image": "bridgit.png",
     "builtWith": ["Java", "Eclipse"],
     "description": "A clone of Bridget, the strategy and skill game in which two players aim to construct a path connecting opposite sides of the game board while obstructing their opponent from achieving the same.",
-    "github": ""
+    "github": "https://github.com/stephenyuu/bridgit"
   },
   {
     "name": "Space Invaders",
     "image": "space-invaders.png",
     "builtWith": ["Java", "Eclipse"],
-    "description": "A re-creation of the timeless Space Invaders game first released in 1978.",
-    "github": ""
+    "description": "A re-creation of the timeless Space Invaders game.",
+    "github": "https://github.com/stephenyuu/space-invaders"
   }
 ]
