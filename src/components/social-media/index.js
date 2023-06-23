@@ -7,7 +7,7 @@ const SocialMedia = () => {
     <div className="mt-3 d-flex">
       {socialMediaLinks.map((link) => (
         <a href={link.url} className="me-3 my-social-media-icon">
-          <i className={link.icon}></i>
+          <i key={link.name} className={link.icon}></i>
         </a>
       ))}
     </div>

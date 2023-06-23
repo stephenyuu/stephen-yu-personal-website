@@ -5,7 +5,7 @@ import "./index.css";
 
 const ExperienceAccordion = () => {
   return (
-    <Accordion className="mt-3 w-75 my-accordion" defaultActiveKey="0">
+    <Accordion className="mt-3 w-75 my-experience-accordion" defaultActiveKey="0">
         {experienceDescriptions.map((exp, index) => (
           <Accordion.Item eventKey={`${index}`}>
             <Accordion.Header><h4><span>{exp.company}</span></h4></Accordion.Header>

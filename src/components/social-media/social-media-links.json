@@ -1,13 +1,16 @@
 [
     {
+        "name": "Github",
         "icon": "bi bi-github",
         "url": "https://www.github.com/stephenyuu"
     },
     {
+        "name": "LinkedIn",
         "icon": "bi bi-linkedin",
         "url": "https://www.linkedin.com/in/stephenyu8"
     },
     {
+        "name": "Instagram",
         "icon": "bi bi-instagram",
         "url": "https://www.instagram.com/stephen.yuu/"
     }
