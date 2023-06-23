@@ -8,13 +8,17 @@ const ProjectsAccordion = () => {
   const getImagePath = (imageName) => {
     return require(`../../../assets/photos/project-images/${imageName}`);
   };
+
   return (
     <div className="my-project-accordion">
       {projectDescriptions.map((proj, index) => {
         const isActivePanel = index === activeIndex;
         const projectSvg = proj.image.substring(0, proj.image.indexOf("."));
         return (
-          <div className="my-project-panel">
+          <div
+            className="my-project-panel"
+            onClick={() => setActiveIndex(index)}
+          >
             <h4 id={`panel${index}-heading`}>
               <button
                 className="my-project-accordion-trigger"

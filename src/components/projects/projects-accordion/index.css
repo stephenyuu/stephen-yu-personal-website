@@ -4,6 +4,8 @@
 }
 
 .my-project-accordion {
+    --_button-size: 3rem;
+    --_panel-padding: 0.75rem;
     display: flex;
     flex-direction: column;
     gap: 1rem;
@@ -12,6 +14,19 @@
 .my-project-panel {
     position: relative;
     isolation: isolate;
+    flex-basis: calc((var(--_panel-padding) * 2) + var(--_button-size));
+    overflow: hidden;
+    padding: var(--_panel-padding);
+    border-radius: calc(((var(--_panel-padding) * 2) + var(--_button-size)) / 2);
+}
+
+.my-project-panel:has([aria-expanded = "true"]) {
+    flex-basis: clamp(15rem, 40vh, 20rem);
+}
+
+.my-project-content > p {
+    transform: translateY(2rem);
+    opacity: 0;
 }
 
 .my-project-accordion-image {
@@ -21,4 +36,22 @@
     height: 100%;
     object-fit: cover;
     z-index: -1;
+}
+
+.my-project-accordion-trigger {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    flex-direction: row-reverse;
+    background: transparent;
+    border: 0;
+    padding: 0;
+}
+
+.my-project-accordion-icon {
+    background: hsl(0 0% 0% / 0.55);
+    width: var(--_button-size);
+    aspect-ratio: 1 / 1;
+    padding: 0.5rem;
+    border-radius: 50%;
 }
