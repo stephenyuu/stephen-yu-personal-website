@@ -36,7 +36,7 @@
       "VS Code"
     ],
     "description": "A replica of the popular social media network, Twitter. Allows users to post and edit 'tuits,' as well as browse and like other users' 'tuits.'",
-    "github": ""
+    "github": "https://github.com/stephenyuu/tuiter-react-web-app"
   },
   {
     "name": "Animator",

@@ -45,9 +45,16 @@ const ProjectsAccordion = () => {
                 role="region"
               >
                 <p className="mt-2">{proj.description}</p>
-                <div className="mt-2 my-project-built-with">{proj.builtWith.map((techUsed) => (
+                <div className="mt-2 my-project-built-with">
+                  {proj.builtWith.map((techUsed) => (
                     <span className="badge me-2">{techUsed}</span>
-                ))}</div>
+                  ))}
+                </div>
+                <div className="mt-2 my-project-links">
+                  <a className="my-project-github-icon" href={proj.github}>
+                    <i class="bi bi-github"></i>{" "}
+                  </a>
+                </div>
                 <img
                   className="my-project-accordion-image"
                   src={getImagePath(proj.image)}

@@ -54,7 +54,7 @@
     outline-offset: 4px;
 }
 
-.my-project-panel > .my-project-content > p, .my-project-panel > .my-project-content > .my-project-built-with {
+.my-project-panel > .my-project-content > p, .my-project-panel > .my-project-content > .my-project-built-with, .my-project-panel > .my-project-content > .my-project-links {
     font-size: 1rem;
     transform: translateY(2rem);
     opacity: 0;
@@ -62,12 +62,12 @@
 }
 
 @media (prefers-reduced-motion: no-preference) {
-    .my-project-panel:has([aria-expanded = "true"]) p, .my-project-panel:has([aria-expanded = "true"]) .my-project-built-with {
+    .my-project-panel:has([aria-expanded = "true"]) p, .my-project-panel:has([aria-expanded = "true"]) .my-project-built-with, .my-project-panel:has([aria-expanded = "true"]) .my-project-links {
         transition: transform 500ms 500ms, opacity 500ms 500ms;
     }
 }
 
-.my-project-panel:has([aria-expanded = "true"]) p, .my-project-panel:has([aria-expanded = "true"]) .my-project-built-with {
+.my-project-panel:has([aria-expanded = "true"]) p, .my-project-panel:has([aria-expanded = "true"]) .my-project-built-with, .my-project-panel:has([aria-expanded = "true"]) .my-project-links {
     transform: translateY(0);
     opacity: 1;
 }
@@ -132,4 +132,15 @@
 
 .my-project-built-with .badge {
     background-color: var(--primary-color);
+}
+
+.my-project-github-icon {
+    font-size: 2rem;
+    color: var(--primary-color);
+    transition: 0.5s ease;
+}
+
+.my-project-github-icon:hover {
+    color: var(--primary-color);
+    text-shadow: 0 0 1rem var(--primary-color);
 }
