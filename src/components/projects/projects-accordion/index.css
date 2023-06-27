@@ -13,6 +13,7 @@
     --_panel-gap: 1rem;
     display: flex;
     flex-direction: column;
+    height: 70rem;
     gap: 1rem;
     contain: content;
 }
@@ -55,7 +56,6 @@
 }
 
 .my-project-panel > .my-project-content > p, .my-project-panel > .my-project-content > .my-project-built-with, .my-project-panel > .my-project-content > .my-project-links {
-    font-size: 1rem;
     transform: translateY(2rem);
     opacity: 0;
     margin-left: calc(var(--_button-size) + var(--_panel-gap));
