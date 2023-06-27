@@ -54,7 +54,7 @@
     outline-offset: 4px;
 }
 
-.my-project-panel > .my-project-content > p {
+.my-project-panel > .my-project-content > p, .my-project-panel > .my-project-content > .my-project-built-with {
     font-size: 1rem;
     transform: translateY(2rem);
     opacity: 0;
@@ -62,12 +62,12 @@
 }
 
 @media (prefers-reduced-motion: no-preference) {
-    .my-project-panel:has([aria-expanded = "true"]) p {
+    .my-project-panel:has([aria-expanded = "true"]) p, .my-project-panel:has([aria-expanded = "true"]) .my-project-built-with {
         transition: transform 500ms 500ms, opacity 500ms 500ms;
     }
 }
 
-.my-project-panel:has([aria-expanded = "true"]) p {
+.my-project-panel:has([aria-expanded = "true"]) p, .my-project-panel:has([aria-expanded = "true"]) .my-project-built-with {
     transform: translateY(0);
     opacity: 1;
 }
@@ -128,4 +128,8 @@
     padding: 0.5rem;
     border-radius: 50%;
     z-index: 10;
+}
+
+.my-project-built-with .badge {
+    background-color: var(--primary-color);
 }

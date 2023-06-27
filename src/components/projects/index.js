@@ -1,6 +1,5 @@
 import React from "react";
 import ProjectsAccordion from "./projects-accordion";
-import "./index.css";
 
 const Projects = () => {
   return (
