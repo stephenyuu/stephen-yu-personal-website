@@ -10,7 +10,7 @@ const ProjectsAccordion = () => {
   };
 
   return (
-    <div className="my-project-accordion">
+    <div className="mt-3 my-project-accordion">
       {projectDescriptions.map((proj, index) => {
         const isActivePanel = index === activeIndex;
         const projectSvg = proj.image.substring(0, proj.image.indexOf("."));
@@ -25,7 +25,7 @@ const ProjectsAccordion = () => {
                 aria-controls={`panel${index}-content`}
                 aria-expanded={isActivePanel ? "true" : "false"}
               >
-                <span id={`panel${index}-title`}>{proj.name}</span>
+                <span className="my-project-accordion-title" id={`panel${index}-title`}>{proj.name}</span>
                 <svg aria-hidden="true" className="my-project-accordion-icon">
                   <use href={`${projectIcons}#${projectSvg}`}></use>
                 </svg>
