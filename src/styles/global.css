@@ -49,6 +49,10 @@ a.hover-link {
     transform-origin: bottom left;
 }
 
+.badge {
+    background-color: var(--primary-color);
+}
+
 .my-section {
     min-height: 100vh;
 }

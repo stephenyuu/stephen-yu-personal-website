@@ -51,6 +51,11 @@ const ExperienceTabList = () => {
                 <p className="mt-2">
                   {job.begin} – {job.end}
                 </p>
+                <div className="mt-2">
+                  {job.skills.map((skill) => (
+                    <span className="badge me-2">{skill}</span>
+                  ))}
+                </div>
                 <ul className="mt-2">
                   {job.description.map((resp) => (
                     <li>{resp}</li>

@@ -95,7 +95,6 @@
     }
 }
 
-
 .my-project-accordion-image {
     position: absolute;
     inset: 0;
@@ -128,10 +127,6 @@
     padding: 0.5rem;
     border-radius: 50%;
     z-index: 10;
-}
-
-.my-project-built-with .badge {
-    background-color: var(--primary-color);
 }
 
 .my-project-github-icon {
