@@ -7,7 +7,7 @@ const Header = () => {
   return (
     <div
       id="home"
-      className="mt-3 d-flex justify-content-center align-items-center my-section"
+      className="d-flex justify-content-center align-items-center my-section"
     >
       <div className="my-content me-5">
         <h3>Hello, my name is</h3>

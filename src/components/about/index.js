@@ -5,7 +5,7 @@ const About = () => {
   return (
     <div
       id="about"
-      className="mt-3 d-flex justify-content-center align-items-center my-section"
+      className="d-flex justify-content-center align-items-center my-section"
     >
       <div className="my-image me-5">
         <img
