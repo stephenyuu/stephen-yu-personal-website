@@ -1,0 +1,10 @@
+.footer-content a {
+    text-decoration: none;
+    color: #E7DFDD;
+    transition: 0.5s ease;
+}
+
+.footer-content a:hover {
+    color: var(--primary-color);
+    text-shadow: 0 0 1rem var(--primary-color);
+}
