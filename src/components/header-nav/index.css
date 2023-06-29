@@ -1,8 +1,6 @@
-.navbar-brand.my-logo {
-    font-size: 2.5rem;
-    cursor: default;
-    color: var(--primary-color);
-    pointer-events: none;
+.my-logo .my-logo-icon {
+    width: 3rem;
+    aspect-ratio: 1 / 1;
 }
 
 .my-navbar-button .navbar-toggler-icon {
