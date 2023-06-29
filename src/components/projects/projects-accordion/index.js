@@ -10,7 +10,7 @@ const ProjectsAccordion = () => {
   };
 
   return (
-    <div className="mt-3 my-project-accordion-wrapper">
+    <div className="mt-5 my-project-accordion-wrapper">
       <div className="my-project-accordion">
         {projectDescriptions.map((proj, index) => {
           const isActivePanel = index === activeIndex;

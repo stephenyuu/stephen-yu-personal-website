@@ -1,5 +1,5 @@
 import React from "react";
-import ExperienceTabList from "./experience-accordion";
+import ExperienceTabList from "./experience-tab-list";
 
 const Experience = () => {
   return (

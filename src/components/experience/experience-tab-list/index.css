@@ -1,0 +1,84 @@
+.my-jobs-list-wrapper {
+    width: 80%;
+}
+
+.my-jobs-list {
+    height: 40rem;
+}
+
+.my-jobs-tabs-list {
+    display: flex;
+    flex: 0 0 20%;
+}
+
+.my-job-tab {
+    background: transparent;
+    border: 0;
+    padding: 0;
+    display: grid;
+    color: #E7DFDD;
+    padding: 0.5rem 1rem;
+}
+
+.my-job-tab[aria-selected = "false"]:hover {
+    color: var(--primary-color);
+    background-color: #2D2D30;
+}
+
+.my-job-tab[aria-selected = "true"] {
+    color: var(--primary-color);
+}
+
+@keyframes fade-in {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.my-job-panel[aria-hidden = "false"] {
+    animation: fade-in 500ms;
+}
+
+.my-job-panel ul {
+    display: block;
+}
+
+
+@media (max-width: 44.99999em) {
+    .my-job-tab {
+        flex-grow: 1;
+        border-bottom: 3px solid #E7DFDD;
+    }
+    
+    .my-job-tab[aria-selected = "true"] {
+        border-bottom: 3px solid var(--primary-color);
+    }
+
+    .my-job-panel {
+        margin-top: 2rem;
+    }
+}
+
+@media (min-width: 45em) {
+    .my-jobs-list {
+        display: flex;
+        gap: 2rem;
+        height: 25rem;
+    }
+    
+    .my-jobs-tabs-list {
+        flex-direction: column;
+    }
+
+    .my-job-tab {
+        border-left: 3px solid #E7DFDD;
+    }
+
+    .my-job-tab[aria-selected = "true"] {
+        border-left: 3px solid var(--primary-color);
+    }
+}
+
