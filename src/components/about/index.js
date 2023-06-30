@@ -24,7 +24,12 @@ const About = () => {
           Computer Science and Business Administration with a concentration in
           Entreprenurial Startups. Along with my education, I had the privelege
           of completing a Quality Assurance Engineer Co-op at{" "}
-          <a className="hover-link" target="_blank" rel="noopener noreferrer" href="https://pos.toasttab.com/">
+          <a
+            className="hover-link"
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://pos.toasttab.com/"
+          >
             Toast
           </a>
           , a cloud-based restaurant management software company. My interest in
@@ -42,8 +47,7 @@ const About = () => {
           watching documentaries about company origin stories.
         </p>
         <p className="mt-3">
-          Here are some technologies I've been working with
-          recently:
+          Here are some technologies I've been working with recently:
         </p>
         <ul className="mt-3">
           <li>JavaScript (ES6+)</li>

@@ -13,7 +13,9 @@ const Contact = () => {
         project ideas, questions, or just to say what's up. I'll try my best to
         get back to you!
       </p>
-      <a className="mt-5 my-email-button" href="mailto:stephenyu1229@gmail.com">Say What's Up</a>
+      <a className="mt-5 my-email-button" href="mailto:stephenyu1229@gmail.com">
+        Say What's Up
+      </a>
     </div>
   );
 };

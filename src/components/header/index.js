@@ -18,7 +18,7 @@ const Header = () => {
         "a basketball player previously with NBA dreams",
         "a family man",
         "a Marvel fanatic",
-        "working to become the best version of myself"
+        "working to become the best version of myself",
       ],
       typeSpeed: 50,
       backSpeed: 50,
@@ -41,7 +41,12 @@ const Header = () => {
           And I'm <span className="my-typed" ref={el}></span>
         </h3>
         <SocialMedia />
-        <a href={resume} target="_blank" rel="noopener noreferrer" className="mt-3 p-2 btn btn-outline-light my-resume-button">
+        <a
+          href={resume}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="mt-3 p-2 btn btn-outline-light my-resume-button"
+        >
           Resume
         </a>
       </div>

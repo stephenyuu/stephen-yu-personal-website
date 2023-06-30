@@ -7,7 +7,11 @@ const Footer = () => (
       <i className="bi bi-arrow-up-square"></i>
     </a>
     <div className="p-3">
-      <a href="https://github.com/stephenyuu/stephen-yu-personal-website" target="_blank" rel="noopener noreferrer">
+      <a
+        href="https://github.com/stephenyuu/stephen-yu-personal-website"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         Built by Stephen Yu 2023
       </a>
     </div>
