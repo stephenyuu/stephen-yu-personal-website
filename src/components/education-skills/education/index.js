@@ -1,5 +1,6 @@
 import React from "react";
 import educationDescription from "./education-descriptions.json";
+import "./index.css";
 
 const Education = () => {
   return (
