@@ -13,10 +13,11 @@ const Header = () => {
         "an aspiring full-stack engineer",
         "a fourth-year student",
         "striving to become a bodybuilder",
-        "a basketball player previously with NBA dreams",
         "enthusiastic about anything food-related",
+        "a basketball player previously with NBA dreams",
         "a family man",
         "a Marvel fanatic",
+        "working to become the best version of myself"
       ],
       typeSpeed: 50,
       backSpeed: 50,
