@@ -58,7 +58,13 @@ a.hover-link {
 }
 
 .my-image img {
+    width: 80vw;
+}
+
+@media (min-width: 45em) {
+  .my-image img {
     width: 35vw;
+  }
 }
 
 .my-content h1 {
