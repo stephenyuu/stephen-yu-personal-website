@@ -15,7 +15,7 @@ const About = () => {
         />
       </div>
       <div>
-        <h2 className="text-center my-header">
+        <h2 className="text-center">
           About <span>Me</span>
         </h2>
         <p className="mt-3">

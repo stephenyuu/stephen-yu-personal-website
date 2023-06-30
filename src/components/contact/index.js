@@ -6,7 +6,7 @@ const Contact = () => {
       id="contact"
       className="d-flex justify-content-center align-items-center my-section my-content"
     >
-      <h2 className="my-header">Contact</h2>
+      <h2>Contact</h2>
     </div>
   );
 };

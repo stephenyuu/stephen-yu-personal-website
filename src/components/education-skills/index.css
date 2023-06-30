@@ -1,0 +1,50 @@
+div#education {
+    flex-direction: column;    
+}
+
+.my-gradient-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2.5rem 2rem;
+    transition: 0.5s;
+}
+
+.my-gradient-container::before, .my-gradient-container::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 50%;
+    height: 100%;
+    background-color: var(--primary-color);
+    border-radius: 0.5rem;
+    transform: skewX(15deg);
+    transition: 0.5s;
+    background: linear-gradient(315deg, var(--primary-color), #808080);
+}
+
+.my-gradient-container::after {
+    filter: blur(2rem);
+    transition: 0.5s;
+}
+
+.my-gradient-container:hover::before, .my-gradient-container:hover::after {
+    transform: skewX(0deg);
+    width: 105%;
+}
+
+.my-education-skills-content {
+    z-index: 1;
+}
+
+
+@media (min-width: 45em) {
+    div#education {
+        flex-direction: row;
+    }
+
+    div#education > * {
+        flex-basis: 100%;
+    }
+}

@@ -7,7 +7,7 @@ const Projects = () => {
       id="projects"
       className="d-flex flex-column justify-content-center align-items-center my-section my-content"
     >
-      <h2 className="my-header">Projects</h2>
+      <h2>Projects</h2>
       <ProjectsAccordion />
     </div>
   );

@@ -61,20 +61,6 @@ a.hover-link {
     width: 35vw;
 }
 
-.my-header {
-    position: relative;
-}
-
-.my-header::after {
-    content: "";
-    height: 0.25rem;
-    width: 20%;
-    background-color: var(--primary-color);
-    position: absolute;
-    left: 40%;
-    bottom: -10px;
-}
-
 .my-content h1 {
     font-size: 5rem;
     font-weight: 900;

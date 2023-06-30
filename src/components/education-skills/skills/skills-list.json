@@ -1,0 +1,32 @@
+[
+  {
+    "languages": [
+      "CSS",
+      "HTML",
+      "SQL",
+      "X86-64 Assembly Languge",
+      "Racket"
+    ]
+  },
+  {
+    "technologies": [
+      "Git",
+      "GitHub",
+      "Express.js",
+      "MySQL",
+      "MongoDB",
+      "Mongoose",
+      "REST APIs",
+      "Postman",
+      "Microsoft Visual Studio",
+      "IntelliJ IDEA",
+      "Eclipse",
+      "MySQL Workbench",
+      "JUnit",
+      "jQuery",
+      "mabl",
+      "Jira",
+      "TestRail"
+    ]
+  }
+]
