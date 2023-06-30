@@ -17,6 +17,7 @@ const ProjectsAccordion = () => {
           const projectSvg = proj.image.substring(0, proj.image.indexOf("."));
           return (
             <div
+              key={proj.name}
               className="my-project-panel"
               onClick={() => setActiveIndex(index)}
             >
@@ -47,12 +48,19 @@ const ProjectsAccordion = () => {
                 <p className="mt-2">{proj.description}</p>
                 <div className="mt-2 my-project-built-with">
                   {proj.builtWith.map((techUsed) => (
-                    <span className="badge me-2">{techUsed}</span>
+                    <span key={techUsed} className="badge me-2">
+                      {techUsed}
+                    </span>
                   ))}
                 </div>
                 <div className="mt-2 my-project-links">
-                  <a className="my-project-github-icon" href={proj.github} target="_blank" rel="noopener noreferrer">
-                    <i class="bi bi-github"></i>{" "}
+                  <a
+                    className="my-project-github-icon"
+                    href={proj.github}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <i className="bi bi-github"></i>{" "}
                   </a>
                 </div>
                 <img

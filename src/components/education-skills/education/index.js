@@ -17,7 +17,7 @@ const Education = () => {
         <p className="mt-2">Relevant Coursework:</p>
         <ul className="mt-2">
           {educationDescription.coursework.map((course) => (
-            <li>{course}</li>
+            <li key={course}>{course}</li>
           ))}
         </ul>
       </div>

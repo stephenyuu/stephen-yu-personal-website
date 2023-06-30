@@ -8,15 +8,12 @@ const ExperienceTabList = () => {
   return (
     <div className="mt-5 my-jobs-list-wrapper">
       <div className="my-jobs-list">
-        <div
-          role="tablist"
-          aria-label="job-tabs"
-          className="my-jobs-tabs-list"
-        >
+        <div role="tablist" aria-label="job-tabs" className="my-jobs-tabs-list">
           {experienceDescriptions.map((job, index) => {
             const isActiveTab = index === activeTab;
             return (
               <button
+                key={index}
                 role="tab"
                 aria-selected={isActiveTab ? "true" : "false"}
                 aria-controls={`job-panel${index}`}
@@ -25,9 +22,7 @@ const ExperienceTabList = () => {
                 onClick={() => setActiveTab(index)}
                 className="my-job-tab"
               >
-                <h4>
-                  {job.company}
-                </h4>
+                <h4>{job.company}</h4>
               </button>
             );
           })}
@@ -37,6 +32,7 @@ const ExperienceTabList = () => {
             const isActiveTab = index === activeTab;
             return (
               <div
+                key={index}
                 id={`job-panel${index}`}
                 role="tabpanel"
                 tabIndex={isActiveTab ? "0" : "-1"}
@@ -53,12 +49,14 @@ const ExperienceTabList = () => {
                 </p>
                 <div className="mt-2">
                   {job.skills.map((skill) => (
-                    <span className="badge me-2">{skill}</span>
+                    <span key={skill} className="badge me-2">
+                      {skill}
+                    </span>
                   ))}
                 </div>
                 <ul className="mt-2">
                   {job.description.map((resp) => (
-                    <li>{resp}</li>
+                    <li key={resp}>{resp}</li>
                   ))}
                 </ul>
               </div>
