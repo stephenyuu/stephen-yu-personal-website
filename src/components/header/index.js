@@ -3,6 +3,7 @@ import { useRef, useEffect } from "react";
 import Typed from "typed.js";
 import SocialMedia from "../social-media";
 import homeImage from "../../assets/photos/home.jpg";
+import resume from "../../assets/Stephen-Yu-Resume.pdf";
 import "./index.css";
 
 const Header = () => {
@@ -40,9 +41,9 @@ const Header = () => {
           And I'm <span className="my-typed" ref={el}></span>
         </h3>
         <SocialMedia />
-        <button className="mt-3 p-2 btn btn-outline-light my-resume-button">
+        <a href={resume} target="_blank" className="mt-3 p-2 btn btn-outline-light my-resume-button">
           Resume
-        </button>
+        </a>
       </div>
       <div className="my-image">
         <img
