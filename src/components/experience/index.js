@@ -7,7 +7,7 @@ const Experience = () => {
       id="experience"
       className="d-flex flex-column justify-content-center align-items-center my-section my-content"
     >
-      <h2>Experience</h2>
+      <h2 className="my-header">Experience</h2>
       <ExperienceTabList />
     </div>
   );

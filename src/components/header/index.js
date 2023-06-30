@@ -19,7 +19,7 @@ const Header = () => {
         <button className="mt-3 p-2 btn btn-outline-light my-resume-button">Resume</button>
       </div>
       <div className="my-image">
-        <img src={homeImage} alt="My family and I standing in front of The Vessel" className="rounded"/>
+        <img src={homeImage} alt="Me standing in front of Golden Gate Bridge" className="rounded"/>
       </div>
     </div>
   );
