@@ -1,0 +1,19 @@
+div#contact p {
+    max-width: 30%;
+}
+
+.my-email-button {
+    color: var(--primary-color);
+    background-color: transparent;
+    border: 2px solid var(--primary-color);
+    font-size: 1.25rem;
+    text-decoration: none;
+    padding: 1.5rem 2rem;
+    border-radius: 0.5rem;
+    transition: 0.5s ease-in;
+}
+
+.my-email-button:hover {
+    color: #28282B;
+    background-color: var(--primary-color);
+}
