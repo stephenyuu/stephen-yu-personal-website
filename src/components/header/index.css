@@ -2,6 +2,14 @@ div#home .my-image {
     display: none;
 }
 
+.my-content .my-typed {
+    text-shadow: 0 0 1rem var(--primary-color);
+}
+
+.my-header-text {
+    flex-grow: 1;
+}
+
 .btn.my-resume-button {
     font-size: 1.5rem;
     transition: 0.5s ease;
