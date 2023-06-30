@@ -51,7 +51,7 @@ const ProjectsAccordion = () => {
                   ))}
                 </div>
                 <div className="mt-2 my-project-links">
-                  <a className="my-project-github-icon" href={proj.github}>
+                  <a className="my-project-github-icon" href={proj.github} target="_blank" rel="noopener noreferrer">
                     <i class="bi bi-github"></i>{" "}
                   </a>
                 </div>

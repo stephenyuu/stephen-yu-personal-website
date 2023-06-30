@@ -41,7 +41,7 @@ const Header = () => {
           And I'm <span className="my-typed" ref={el}></span>
         </h3>
         <SocialMedia />
-        <a href={resume} target="_blank" className="mt-3 p-2 btn btn-outline-light my-resume-button">
+        <a href={resume} target="_blank" rel="noopener noreferrer" className="mt-3 p-2 btn btn-outline-light my-resume-button">
           Resume
         </a>
       </div>
