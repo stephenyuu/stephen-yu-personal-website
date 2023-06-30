@@ -1,3 +1,7 @@
+div#home .my-image {
+    display: none;
+}
+
 .btn.my-resume-button {
     font-size: 1.5rem;
     transition: 0.5s ease;
@@ -7,4 +11,10 @@
     border-color: var(--primary-color);
     background-color: var(--primary-color);
     box-shadow: 0 0 1rem var(--primary-color);
+}
+
+@media (min-width: 45em) {
+    div#home .my-image {
+        display: block;
+    }
 }

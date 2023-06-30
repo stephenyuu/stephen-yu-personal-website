@@ -1,0 +1,9 @@
+div#about {
+    flex-direction: column-reverse;
+}
+
+@media (min-width: 45em) {
+    div#about {
+        flex-direction: row;
+    }
+}

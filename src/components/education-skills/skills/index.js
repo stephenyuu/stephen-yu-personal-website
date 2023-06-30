@@ -12,13 +12,13 @@ const Skills = () => {
         </h4>
         <div className="mt-2 my-skills">
           {skillsList[0].languages.map((lang) => (
-            <span className="badge me-2">{lang}</span>
+            <span className="badge me-2 mt-2">{lang}</span>
           ))}
         </div>
         <h4 className="mt-2">
           Here are some other technologies I've worked with:{" "}
         </h4>
-        <div className="mt-2 my-skills">
+        <div className="mt-2 mb-2 my-skills">
           {skillsList[1].technologies.map((tech) => (
             <span className="badge me-2 mt-2">{tech}</span>
           ))}
