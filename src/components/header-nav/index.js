@@ -6,7 +6,7 @@ import "./index.css";
 
 const HeaderNav = () => {
   return (
-    <Navbar className="fixed-top py-3 justify-content-between" expand="md">
+    <Navbar className="py-3 justify-content-between" expand="md">
       <div className="container">
         <Navbar.Brand className="my-logo">
           <a href="/">
