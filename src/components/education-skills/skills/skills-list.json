@@ -4,8 +4,7 @@
       "CSS",
       "HTML",
       "SQL",
-      "X86-64 Assembly Languge",
-      "Racket"
+      "X86-64 Assembly Languge"
     ]
   },
   {
@@ -16,12 +15,14 @@
       "MySQL",
       "MongoDB",
       "Mongoose",
-      "REST APIs",
+      "Bootstrap",
+      "Redux",
+      "Axios",
+      "REST API",
       "Postman",
-      "AWS",
+      "Figma",
       "Microsoft Visual Studio",
       "IntelliJ IDEA",
-      "Eclipse",
       "MySQL Workbench",
       "JUnit",
       "jQuery",
