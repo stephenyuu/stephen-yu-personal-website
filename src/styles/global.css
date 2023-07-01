@@ -55,6 +55,12 @@ a.hover-link {
 
 .my-section {
     min-height: 100vh;
+    padding: 6rem 9% 6rem;
+}
+
+.my-header-footer {
+    background-color: #2D2D31;
+    padding: 1rem 9%;
 }
 
 .my-image img {

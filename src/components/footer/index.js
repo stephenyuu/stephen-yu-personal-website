@@ -2,7 +2,7 @@ import React from "react";
 import "./index.css";
 
 const Footer = () => (
-  <footer className="d-flex flex-column justify-content-center align-items-center my-footer-content">
+  <footer className="d-flex flex-column justify-content-center align-items-center my-header-footer my-footer-content">
     <a href="/#page-top">
       <i className="bi bi-arrow-up-square"></i>
     </a>
