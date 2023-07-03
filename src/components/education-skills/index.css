@@ -44,7 +44,7 @@ div#education {
         flex-direction: row;
     }
 
-    div#education > * {
+    div#education > .my-gradient-container {
         flex-basis: 100%;
     }
 }

@@ -46,7 +46,6 @@
     display: block;
 }
 
-
 @media (max-width: 767.98px) {
     .my-job-tab {
         flex-grow: 1;

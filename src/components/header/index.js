@@ -1,6 +1,7 @@
 import React from "react";
 import { useRef, useEffect } from "react";
 import Typed from "typed.js";
+import Fade from "react-reveal/Fade";
 import SocialMedia from "../social-media";
 import homeImage from "../../assets/photos/home.jpg";
 import resume from "../../assets/Stephen-Yu-Resume.pdf";
@@ -26,34 +27,36 @@ const Header = () => {
     };
   });
   return (
-    <div
-      id="home"
-      className="d-flex justify-content-center align-items-center my-section"
-    >
-      <div className="me-5 my-content my-header-text">
-        <h3>Hello, my name is</h3>
-        <h1>Stephen Yu</h1>
-        <h3>
-          And I'm <span className="my-typed" ref={el}></span>
-        </h3>
-        <SocialMedia />
-        <a
-          href={resume}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="mt-3 p-2 btn btn-outline-light my-resume-button"
-        >
-          Resume
-        </a>
+    <Fade duration={500} delay={300}>
+      <div
+        id="home"
+        className="d-flex justify-content-center align-items-center my-section"
+      >
+        <div className="me-5 my-content my-header-text">
+          <h3>Hello, my name is</h3>
+          <h1>Stephen Yu</h1>
+          <h3>
+            And I'm <span className="my-typed" ref={el}></span>
+          </h3>
+          <SocialMedia />
+          <a
+            href={resume}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="mt-3 p-2 btn btn-outline-light my-resume-button"
+          >
+            Resume
+          </a>
+        </div>
+        <div className="my-image">
+          <img
+            src={homeImage}
+            alt="Me standing in front of Golden Gate Bridge"
+            className="rounded"
+          />
+        </div>
       </div>
-      <div className="my-image">
-        <img
-          src={homeImage}
-          alt="Me standing in front of Golden Gate Bridge"
-          className="rounded"
-        />
-      </div>
-    </div>
+    </Fade>
   );
 };
 
