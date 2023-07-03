@@ -1,7 +1,7 @@
 import React from "react";
 import { useRef, useEffect } from "react";
 import Typed from "typed.js";
-import Fade from "react-reveal/Fade";
+import { Fade } from "react-awesome-reveal"
 import SocialMedia from "../social-media";
 import homeImage from "../../assets/photos/home.jpg";
 import resume from "../../assets/Stephen-Yu-Resume.pdf";
