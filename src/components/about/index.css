@@ -2,7 +2,7 @@ div#about {
     flex-direction: column-reverse;
 }
 
-@media (min-width: 45em) {
+@media (min-width: 768px) {
     div#about {
         flex-direction: row;
     }

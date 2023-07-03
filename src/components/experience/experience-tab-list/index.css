@@ -47,7 +47,7 @@
 }
 
 
-@media (max-width: 44.99999em) {
+@media (max-width: 767.98px) {
     .my-job-tab {
         flex-grow: 1;
         border-bottom: 3px solid #E7DFDD;
@@ -62,7 +62,7 @@
     }
 }
 
-@media (min-width: 45em) {
+@media (min-width: 768px) {
     .my-jobs-list {
         display: flex;
         gap: 2rem;

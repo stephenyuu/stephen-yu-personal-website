@@ -21,7 +21,7 @@ div#home .my-image {
     box-shadow: 0 0 1rem var(--primary-color);
 }
 
-@media (min-width: 45em) {
+@media (min-width: 768px) {
     div#home .my-image {
         display: block;
     }

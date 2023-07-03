@@ -18,7 +18,7 @@
     contain: content;
 }
 
-@media (min-width: 45em) {
+@media (min-width: 992px) {
     .my-project-accordion {
         flex-direction: row;
         height: 35rem;
@@ -82,7 +82,7 @@
     align-items: center;
 }
 
-@media (max-width: 44.99999em) {
+@media (max-width: 991.98px) {
     .my-project-accordion-title::after {
         content: "";
         position: absolute;

@@ -64,10 +64,10 @@ a.hover-link {
 }
 
 .my-image img {
-    width: 80vw;
+    width: 50vw;
 }
 
-@media (min-width: 45em) {
+@media (min-width: 768px) {
   .my-image img {
     width: 35vw;
   }

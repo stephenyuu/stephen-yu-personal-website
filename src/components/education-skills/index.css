@@ -39,7 +39,7 @@ div#education {
 }
 
 
-@media (min-width: 45em) {
+@media (min-width: 992px) {
     div#education {
         flex-direction: row;
     }
