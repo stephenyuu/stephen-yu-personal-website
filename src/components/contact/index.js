@@ -4,7 +4,7 @@ import "./index.css";
 
 const Contact = () => {
   return (
-    <Fade duration={500} delay={300}>
+    <Fade triggerOnce duration={500} delay={300}>
       <div
         id="contact"
         className="d-flex flex-column justify-content-center align-items-center my-section my-content"

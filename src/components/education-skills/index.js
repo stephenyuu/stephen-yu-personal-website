@@ -6,7 +6,7 @@ import "./index.css";
 
 const EducationSkills = () => {
   return (
-    <Fade duration={500} delay={300}>
+    <Fade triggerOnce duration={500} delay={300}>
       <div
         id="education"
         className="d-flex justify-content-center my-section my-content"

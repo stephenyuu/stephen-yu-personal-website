@@ -4,7 +4,7 @@ import ExperienceTabList from "./experience-tab-list";
 
 const Experience = () => {
   return (
-    <Fade duration={500} delay={300}>
+    <Fade triggerOnce duration={500} delay={300}>
       <div
         id="experience"
         className="d-flex flex-column justify-content-center align-items-center my-section my-content"

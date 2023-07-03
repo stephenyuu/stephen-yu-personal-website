@@ -3,7 +3,7 @@ import { Fade } from "react-awesome-reveal"
 import "./index.css";
 
 const Footer = () => (
-  <Fade duration={500} delay={300}>
+  <Fade triggerOnce duration={500} delay={300}>
     <footer className="d-flex flex-column justify-content-center align-items-center my-header-footer my-footer-content">
       <a href="/#page-top">
         <i className="bi bi-arrow-up-square"></i>

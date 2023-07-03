@@ -27,7 +27,7 @@ const Header = () => {
     };
   });
   return (
-    <Fade duration={500} delay={300}>
+    <Fade triggerOnce duration={500} delay={300}>
       <div
         id="home"
         className="d-flex justify-content-center align-items-center my-section"
