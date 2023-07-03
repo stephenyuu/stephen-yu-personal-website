@@ -1,10 +1,10 @@
 import React from "react";
-import { Fade } from "react-awesome-reveal"
+import { Fade } from "react-awesome-reveal";
 import "./index.css";
 
 const Contact = () => {
   return (
-    <Fade triggerOnce duration={500} delay={300}>
+    <Fade triggerOnce fraction={0.25} duration={500} delay={300}>
       <div
         id="contact"
         className="d-flex flex-column justify-content-center align-items-center my-section my-content"

@@ -1,12 +1,12 @@
 import React from "react";
 import Education from "./education";
 import Skills from "./skills";
-import { Fade } from "react-awesome-reveal"
+import { Fade } from "react-awesome-reveal";
 import "./index.css";
 
 const EducationSkills = () => {
   return (
-    <Fade triggerOnce duration={500} delay={300}>
+    <Fade triggerOnce fraction={0.25} duration={500} delay={300}>
       <div
         id="education"
         className="d-flex justify-content-center my-section my-content"

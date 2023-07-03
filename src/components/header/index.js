@@ -1,7 +1,7 @@
 import React from "react";
 import { useRef, useEffect } from "react";
 import Typed from "typed.js";
-import { Fade } from "react-awesome-reveal"
+import { Fade } from "react-awesome-reveal";
 import SocialMedia from "../social-media";
 import homeImage from "../../assets/photos/home.jpg";
 import resume from "../../assets/Stephen-Yu-Resume.pdf";
@@ -27,7 +27,7 @@ const Header = () => {
     };
   });
   return (
-    <Fade triggerOnce duration={500} delay={300}>
+    <Fade triggerOnce fraction={0.25} duration={500} delay={300}>
       <div
         id="home"
         className="d-flex justify-content-center align-items-center my-section"

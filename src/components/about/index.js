@@ -1,11 +1,11 @@
 import React from "react";
-import { Fade } from "react-awesome-reveal"
+import { Fade } from "react-awesome-reveal";
 import aboutImage from "../../assets/photos/about.jpg";
 import "./index.css";
 
 const About = () => {
   return (
-    <Fade triggerOnce duration={500} delay={300}>
+    <Fade triggerOnce fraction={0.25} duration={500} delay={300}>
       <div
         id="about"
         className="d-flex justify-content-center align-items-center my-section my-content"
