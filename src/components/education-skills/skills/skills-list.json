@@ -1,35 +1,39 @@
 [
   {
     "languages": [
-      "CSS",
-      "HTML",
+      "HTML / CSS",
+      "Python",
       "SQL",
-      "X86-64 Assembly Languge"
+      "X86-64 Assembly Language",
+      "Racket"
     ]
   },
   {
     "technologies": [
       "Git",
       "GitHub",
+      "Node.js",
       "Express.js",
       "MySQL",
       "MongoDB",
       "Mongoose",
-      "Bootstrap",
-      "Redux",
-      "Axios",
       "REST API",
-      "AWS",
+      "GraphQL",
+      "Axios",
       "Postman",
+      "Jenkins",
+      "AWS",
       "Figma",
+      "Jira",
+      "mabl",
+      "TestRail",
       "Microsoft Visual Studio",
       "IntelliJ IDEA",
       "MySQL Workbench",
+      "Bootstrap",
+      "Redux",
       "JUnit",
-      "jQuery",
-      "mabl",
-      "Jira",
-      "TestRail"
+      "jQuery"
     ]
   }
 ]

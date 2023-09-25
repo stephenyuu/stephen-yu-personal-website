@@ -4,7 +4,7 @@ import experienceDescriptions from "./experience-descriptions.json";
 import "./index.css";
 
 const ExperienceTabList = () => {
-  const [activeTab, setActiveTab] = useState(1);
+  const [activeTab, setActiveTab] = useState(0);
   return (
     <div className="mt-5 my-jobs-list-wrapper">
       <div className="my-jobs-list">

@@ -4,8 +4,17 @@
     "company": "Toast",
     "begin": "July 2023",
     "end": "December 2023",
-    "description": [],
-    "skills": []
+    "description": [
+     "6-month Co-op – Onboarding Applications Team"
+    ],
+    "skills": [
+      "TypeScript",
+      "JavaScript",
+      "ReactJS",
+      "Kotlin",
+      "GraphQL",
+      "Jenkins"
+    ]
   },
   {
     "position": "Quality Assurance Engineer Co-op",
