@@ -13,7 +13,9 @@
       "ReactJS",
       "Kotlin",
       "GraphQL",
-      "Jenkins"
+      "Jenkins",
+      "Jest",
+      "React Testing Library"
     ]
   },
   {

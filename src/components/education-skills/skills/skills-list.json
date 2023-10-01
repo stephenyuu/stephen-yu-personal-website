@@ -21,6 +21,9 @@
       "GraphQL",
       "Axios",
       "Postman",
+      "Jest",
+      "React Testing Library",
+      "JUnit",
       "Jenkins",
       "AWS",
       "Figma",
@@ -32,7 +35,6 @@
       "MySQL Workbench",
       "Bootstrap",
       "Redux",
-      "JUnit",
       "jQuery"
     ]
   }
