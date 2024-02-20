@@ -1,14 +1,14 @@
 [
   {
-    "position": "Incoming Software Engineer Co-op",
+    "position": "Software Engineer Co-op",
     "company": "Toast",
     "begin": "July 2023",
     "end": "December 2023",
     "description": [
-     "6-month Co-op – Onboarding Applications Team",
-     "Leading the migration of layout components to construct onboarding wizards to Toast’s front-end shared components library, enabling the upgrade of our spas to leverage this library and empowering other teams to build standardized onboarding flows",
+     "Integrated Online Ordering onboarding into the setup checklist, supported by a Pendo walkthrough, which resulted in an 11x improvement in guide completion rate (from 3% to 33%), enhanced customer discoverability and awareness, and ultimately boosted activation",
      "Developed a new page within the universal self-service onboarding process to drive the adoption of the new Toast Now app among restauranteurs, achieving a conversion rate of 72%",
-     "Integrated Online Ordering onboarding into the setup checklist, supported by a Pendo walkthrough, to enhance customer discoverability and awareness, streamline the onboarding experience, and increase activation while reducing churn"
+     "Led the migration of layout components to construct onboarding wizards into Toast’s front-end shared components library, enabling the upgrade of our spas to leverage this library and empowering other teams to build standardized onboarding flows",
+     "Contributed to a project to accelerate the hardware order delivery process for restaurants by building two endpoints: one for automating communication between restauranteurs and onboarding consultants through Salesforce messages, reducing delays caused by manual phone calls; and another for logging satisfaction survey results to gauge feedback on the revamped process"
     ],
     "skills": [
       "TypeScript",

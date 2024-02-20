@@ -7,12 +7,13 @@
   "honors": "Dean's List (All Semesters)",
   "coursework": [
     "Web Development",
+    "Fundamentals of Software Engineering",
     "Object-Oriented Design",
     "Algorithms & Data Structures",
     "Computer Systems",
+    "Foundations of Data Science",
     "Database Design",
     "Fundamentals of Computer Science I & II",
-    "Discrete Structures",
-    "Financial Management"
+    "Discrete Structures"
   ]
 }

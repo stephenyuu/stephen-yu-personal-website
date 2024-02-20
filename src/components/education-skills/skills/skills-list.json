@@ -2,7 +2,7 @@
   {
     "languages": [
       "HTML / CSS",
-      "Python",
+      "C",
       "SQL",
       "X86-64 Assembly Language",
       "Racket"
@@ -26,6 +26,8 @@
       "Jest",
       "React Testing Library",
       "JUnit",
+      "Pandas",
+      "NumPy",
       "Jenkins",
       "AWS",
       "Figma",

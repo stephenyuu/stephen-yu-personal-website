@@ -24,8 +24,8 @@ const About = () => {
           <p className="mt-3">
             I'm a senior at Northeastern University pursuing a B.S. in
             Computer Science and Business Administration with a concentration in
-            Entreprenurial Startups. Along with my education, I had the
-            privilege of completing a Quality Assurance Engineer Co-op at{" "}
+            Entreprenurial Startups. Along with my education, I've had the
+            privilege of completing a Quality Assurance Co-op and a Software Engineer Co-op at{" "}
             <a
               className="hover-link"
               target="_blank"
@@ -35,10 +35,9 @@ const About = () => {
               Toast
             </a>
             , a cloud-based restaurant management software company. My interest
-            in web development started here when I partook in the makeover of a
-            product's user interface. With this newfound passion, I'm excited to
-            be back at Toast as a Software Engineer Co-op, building solutions that
-            facilitate the restaurant onboarding process with the Onboarding Applications Team! 
+            in web development began here when I partook in the makeover of a
+            product's user interface. Currently, I'm finishing my final semester of
+            college and seeking full-time software engineering opportunities.
           </p>
           <p className="mt-3">
             Outside of school and work, I enjoy spending quality time with
@@ -58,7 +57,7 @@ const About = () => {
             <li>JavaScript</li>
             <li>Kotlin</li>
             <li>ReactJS</li>
-            <li>C</li>
+            <li>Python</li>
           </ul>
         </div>
       </div>
