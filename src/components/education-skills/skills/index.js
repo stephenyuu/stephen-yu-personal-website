@@ -1,6 +1,5 @@
 import React from "react";
 import skillsList from "./skills-list.json";
-import "./index.css";
 
 const Skills = () => {
   return (
@@ -10,7 +9,7 @@ const Skills = () => {
         <h4 className="mt-2">
           Here are some other languages I've worked with:{" "}
         </h4>
-        <div className="mt-2 my-skills">
+        <div className="mt-2">
           {skillsList[0].languages.map((lang) => (
             <span key={lang} className="badge me-2 mt-2">
               {lang}
@@ -20,7 +19,7 @@ const Skills = () => {
         <h4 className="mt-2">
           Here are some other technologies I've worked with:{" "}
         </h4>
-        <div className="mt-2 mb-2 my-skills">
+        <div className="mt-2 mb-2">
           {skillsList[1].technologies.map((tech) => (
             <span key={tech} className="badge me-2 mt-2">
               {tech}

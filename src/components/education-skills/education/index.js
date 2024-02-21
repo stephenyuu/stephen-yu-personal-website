@@ -15,11 +15,13 @@ const Education = () => {
         <p className="mt-2">GPA: {educationDescription.gpa} / 4.0</p>
         <p className="mt-2">Honors: {educationDescription.honors}</p>
         <p className="mt-2">Relevant Coursework:</p>
-        <ul className="mt-2">
+        <div className="mt-2">
           {educationDescription.coursework.map((course) => (
-            <li key={course}>{course}</li>
+            <span key={course} className="badge me-2 mt-2">
+              {course}
+            </span>
           ))}
-        </ul>
+        </div>
       </div>
     </div>
   );

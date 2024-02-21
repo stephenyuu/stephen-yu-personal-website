@@ -38,6 +38,11 @@ div#education {
     z-index: 1;
 }
 
+.my-education-skills-content .badge {
+    font-size: 1rem;
+    background-color: #E7DFDD;
+    color: #28282B;
+}
 
 @media (min-width: 992px) {
     div#education {
